@@ -12,7 +12,11 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero-promo.css');
+@import url('./popular-programs.css');
+@import url('./team.css');
+@import url('./breathe-space.css');
+@import url('./help.css');
+@import url('./testimonials.css');
+@import url('./pricing-plan.css');
 @import url('./footer.css');
