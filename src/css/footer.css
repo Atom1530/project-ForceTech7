@@ -1,21 +1,117 @@
-/* .footer {
+.footer {
+  padding: 48px 0;
+  background: #dfebeb;
+}
+.interior-div {
+  padding: 32px;
+
+  background: #f8fbfe;
+  border: 0px solid rgba(13, 11, 10, 0.15);
+  border-radius: 16px;
+}
+.footer-paragraph {
   padding: 20px 0;
 }
-.footer-desc {
-  text-align: center;
+.input-footer {
+  padding: 8px 12px;
+  height: 42px;
+  width: 100%;
+
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  background: rgba(13, 11, 10, 0.05);
 }
-.footer-link {
-  position: relative;
+.button-footer {
+  display: block;
+  margin: 16px 0 12px 0;
+  padding: 0;
+  height: 46px;
+  width: 100%;
+
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100px;
+  background: rgba(13, 11, 10, 0.05);
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
-} */
+.paragraph-under-button {
+  font-size: 12px;
+}
+.header {
+  padding-bottom: 20px;
+}
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 0;
+}
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.last-header {
+  font: 400 14px / 1.6 'Sarabun', sans-serif;
+  color: #0d0b0a;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 40px 0;
+  }
+  .interior-div {
+    padding: 40px 32px;
+  }
+  .footer-paragraph {
+    padding: 24 0;
+  }
+  .input-footer {
+    width: 546px;
+  }
+  .button-footer {
+    width: 78px;
+    display: inline;
+    margin: 0;
+  }
+  .footer-form {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 12px;
+  }
+  .lists {
+    flex-direction: row;
+    padding: 40px 0;
+  }
+  .div-item {
+    width: calc((704px - 40px) / 2);
+  }
+}
+
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding: 64px 0;
+  }
+  .div-total-information {
+    display: flex;
+    flex-direction: column;
+  }
+  .interior-div {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 48px;
+  }
+  .input-footer {
+    width: 501px;
+  }
+  .lists {
+    padding: 0;
+    margin-left: auto;
+  }
+  .div-item {
+    width: calc((371px - 40px) / 2);
+  }
+  .last-header {
+    width: 100%;
+  }
+}
