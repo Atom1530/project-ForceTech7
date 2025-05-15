@@ -1,11 +1,11 @@
 {
-  "name": "yogabloom-website",
+  "name": "project-forcetech",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/yogabloom-website/",
+    "build": "vite build --base=/project-ForceTech7/",
     "preview": "vite preview"
   },
   "devDependencies": {
