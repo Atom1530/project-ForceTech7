@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/yogabloom-website/",
+    "build": "vite build --base=/project-ForceTech7 /",
     "preview": "vite preview"
   },
   "devDependencies": {
